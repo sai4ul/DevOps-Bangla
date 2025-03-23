@@ -1,6 +1,8 @@
 # Top 30 Linux Commands for DevOps (Bangla and English)
 
-এই কমান্ডগুলি একজন DevOps ইঞ্জিনিয়ারের দৈনন্দিন কাজের জন্য অত্যন্ত গুরুত্বপূর্ণ। এগুলি ভালোভাবে জানা থাকলে সিস্টেম অ্যাডমিনিস্ট্রেশন, অটোমেশন, মনিটরিং, এবং ট্রাবলশুটিং কাজগুলি অনেক সহজ হয়ে যায়।
+**English Summary:** These commands are essential for the daily work of a DevOps engineer. Having a good understanding of these commands makes system administration, automation, monitoring, and troubleshooting tasks much easier.
+
+**বাংলা সারাংশ:** এই কমান্ডগুলি একজন DevOps ইঞ্জিনিয়ারের দৈনন্দিন কাজের জন্য অত্যন্ত গুরুত্বপূর্ণ। এগুলি ভালোভাবে জানা থাকলে সিস্টেম অ্যাডমিনিস্ট্রেশন, অটোমেশন, মনিটরিং, এবং ট্রাবলশুটিং কাজগুলি অনেক সহজ হয়ে যায়।
 
 ## 1. `ls`
 
@@ -14,7 +16,7 @@ ls -la  # Lists all files (including hidden ones) with detailed information
 
 ## 2. `cd`
 
-**English:** Used to change from one directory to another.
+**English:** Used to change from one directory to another.<br>
 **বাংলা:** এক ডিরেক্টরি থেকে অন্য ডিরেক্টরিতে যাওয়ার জন্য ব্যবহৃত হয়।
 
 ```bash
@@ -26,7 +28,7 @@ cd ..        # Moves up one level in the directory structure
 
 ## 3. `pwd`
 
-**English:** Used to display the current directory path.
+**English:** Used to display the current directory path.<br>
 **বাংলা:** বর্তমানে আপনি কোন ডিরেক্টরিতে আছেন তা দেখার জন্য ব্যবহৃত হয়।
 
 ```bash
@@ -36,7 +38,7 @@ pwd  # Shows the full path of the current directory
 
 ## 4. `grep`
 
-**English:** Used to search for specific patterns or text in files.
+**English:** Used to search for specific patterns or text in files.<br>
 **বাংলা:** ফাইলের মধ্যে নির্দিষ্ট প্যাটার্ন বা টেক্সট খোঁজার জন্য ব্যবহৃত হয়।
 
 ```bash
@@ -60,7 +62,7 @@ find / -type f -size +100M    # Finds files larger than 100MB
 
 ## 6. `ps`
 
-**English:** Used to view currently running processes.
+**English:** Used to view currently running processes.<br>
 **বাংলা:** বর্তমানে চলমান প্রসেসগুলি দেখার জন্য ব্যবহৃত হয়।
 
 ```bash
@@ -70,7 +72,7 @@ ps aux  # Displays all running processes on the system
 
 ## 7. `top` / `htop`
 
-**English:** Used for real-time system performance monitoring.
+**English:** Used for real-time system performance monitoring.<br>
 **বাংলা:** সিস্টেমের রিয়েল-টাইম পারফরম্যান্স মনিটরিং করার জন্য ব্যবহৃত হয়।
 
 ```bash
@@ -94,7 +96,7 @@ systemctl restart docker   # Restarts the docker service
 
 ## 9. `journalctl`
 
-**English:** Used to view logs for systemd services.
+**English:** Used to view logs for systemd services.<br>
 **বাংলা:** systemd সার্ভিসগুলির লগ দেখার জন্য ব্যবহৃত হয়।
 
 ```bash
@@ -106,7 +108,7 @@ journalctl -f              # Shows live logs (in follow mode)
 
 ## 10. `netstat` / `ss`
 
-**English:** Used to view network connections, routing tables, and interfaces.
+**English:** Used to view network connections, routing tables, and interfaces.<br>
 **বাংলা:** নেটওয়ার্ক কানেকশন, রাউটিং টেবিল এবং ইন্টারফেস দেখার জন্য ব্যবহৃত হয়।
 
 ```bash
@@ -118,7 +120,7 @@ ss -tunlp         # Modern alternative to netstat
 
 ## 11. `df`
 
-**English:** Used to display disk space usage.
+**English:** Used to display disk space usage.<br>
 **বাংলা:** ডিস্ক স্পেস ব্যবহার দেখার জন্য ব্যবহৃত হয়।
 
 ```bash
@@ -128,7 +130,7 @@ df -h    # Shows disk space in human-readable format
 
 ## 12. `du`
 
-**English:** Used to check the size of files and directories.
+**English:** Used to check the size of files and directories.<br>
 **বাংলা:** ফাইল এবং ডিরেক্টরির সাইজ দেখার জন্য ব্যবহৃত হয়।
 
 ```bash
@@ -140,7 +142,7 @@ du -sh *          # Shows the size of each item in the current directory
 
 ## 13. `tail`
 
-**English:** Used to view the end of a file, especially for monitoring log files.
+**English:** Used to view the end of a file, especially for monitoring log files.<br>
 **বাংলা:** ফাইলের শেষাংশ দেখার জন্য ব্যবহৃত হয়, বিশেষ করে লগ ফাইল মনিটর করতে।
 
 ```bash
@@ -152,7 +154,7 @@ tail -n 100 file.log       # Shows the last 100 lines of the file
 
 ## 14. `sed`
 
-**English:** Used for text transformation, filtering, and replacement.
+**English:** Used for text transformation, filtering, and replacement.<br>
 **বাংলা:** টেক্সট ট্রান্সফরমেশন, ফিল্টারিং এবং রিপ্লেসমেন্টের জন্য ব্যবহৃত হয়।
 
 ```bash
@@ -162,7 +164,7 @@ sed 's/old/new/g' file.txt    # Replaces "old" with "new" in the file
 
 ## 15. `awk`
 
-**English:** Used for text processing and data extraction.
+**English:** Used for text processing and data extraction.<br>
 **বাংলা:** টেক্সট প্রসেসিং এবং ডেটা এক্সট্রাকশনের জন্য ব্যবহৃত হয়।
 
 ```bash
@@ -172,7 +174,7 @@ awk '{print $1}' file.txt    # Prints the first column of each line in the file
 
 ## 16. `curl`
 
-**English:** Used to transfer data from the command line.
+**English:** Used to transfer data from the command line.<br>
 **বাংলা:** কমান্ড লাইন থেকে ডেটা ট্রান্সফার করার জন্য ব্যবহৃত হয়।
 
 ```bash
@@ -184,7 +186,7 @@ curl -o file.txt https://example.com/file    # Downloads a file
 
 ## 17. `wget`
 
-**English:** Used to download files from the internet.
+**English:** Used to download files from the internet.<br>
 **বাংলা:** ইন্টারনেট থেকে ফাইল ডাউনলোড করার জন্য ব্যবহৃত হয়।
 
 ```bash
@@ -194,7 +196,7 @@ wget https://example.com/file.zip    # Downloads the file
 
 ## 18. `docker`
 
-**English:** Used to manage Docker containers.
+**English:** Used to manage Docker containers.<br>
 **বাংলা:** ডকার কন্টেইনার পরিচালনা করার জন্য ব্যবহৃত হয়।
 
 ```bash
@@ -208,7 +210,7 @@ docker-compose up  # Starts docker-compose services
 
 ## 19. `kubectl`
 
-**English:** Used to manage Kubernetes clusters.
+**English:** Used to manage Kubernetes clusters.<br>
 **বাংলা:** কুবারনেটিস ক্লাস্টার পরিচালনা করার জন্য ব্যবহৃত হয়।
 
 ```bash
@@ -220,7 +222,7 @@ kubectl describe deployment  # Shows detailed info about a deployment
 
 ## 20. `git`
 
-**English:** Used for version control and code management.
+**English:** Used for version control and code management.<br>
 **বাংলা:** ভার্সন কন্ট্রোল এবং কোড পরিচালনার জন্য ব্যবহৃত হয়।
 
 ```bash
@@ -234,7 +236,7 @@ git commit -m "message"      # Commits changes
 
 ## 21. `ssh`
 
-**English:** Used to establish secure connections to remote servers.
+**English:** Used to establish secure connections to remote servers.<br>
 **বাংলা:** রিমোট সার্ভারে সিকিউর কানেকশন স্থাপন করার জন্য ব্যবহৃত হয়।
 
 ```bash
@@ -246,7 +248,7 @@ ssh -i key.pem user@hostname # Logs in using a key file
 
 ## 22. `scp`
 
-**English:** Used to securely copy files between two hosts.
+**English:** Used to securely copy files between two hosts.<br>
 **বাংলা:** দুটি হোস্টের মধ্যে সিকিউরভাবে ফাইল কপি করার জন্য ব্যবহৃত হয়।
 
 ```bash
@@ -258,7 +260,7 @@ scp user@hostname:/path/file.txt .  # Copies file from remote to local
 
 ## 23. `tar`
 
-**English:** Used to archive and compress files.
+**English:** Used to archive and compress files.<br>
 **বাংলা:** ফাইল আর্কাইভ করার এবং কম্প্রেস করার জন্য ব্যবহৃত হয়।
 
 ```bash
@@ -270,7 +272,7 @@ tar -xvzf archive.tar.gz                 # Extracts an archive
 
 ## 24. `crontab`
 
-**English:** Used to schedule automatic tasks at specific times.
+**English:** Used to schedule automatic tasks at specific times.<br>
 **বাংলা:** নির্দিষ্ট সময়ে স্বয়ংক্রিয় কাজ সম্পাদন করার জন্য ব্যবহৃত হয়।
 
 ```bash
@@ -282,7 +284,7 @@ crontab -e    # Edits cron jobs
 
 ## 25. `vim` / `nano`
 
-**English:** Used to edit text files.
+**English:** Used to edit text files.<br>
 **বাংলা:** টেক্সট ফাইল সম্পাদনা করার জন্য ব্যবহৃত হয়।
 
 ```bash
@@ -294,7 +296,7 @@ nano file.txt   # Opens file in nano editor (easier for beginners)
 
 ## 26. `chmod`
 
-**English:** Used to change permissions of files and directories.
+**English:** Used to change permissions of files and directories.<br>
 **বাংলা:** ফাইল এবং ডিরেক্টরির অনুমতি পরিবর্তন করার জন্য ব্যবহৃত হয়।
 
 ```bash
@@ -316,7 +318,7 @@ chown user:group file.txt    # Changes the user and group of the file
 
 ## 28. `iptables`
 
-**English:** Used to manage the Linux firewall.
+**English:** Used to manage the Linux firewall.<br>
 **বাংলা:** লিনাক্স ফায়ারওয়াল পরিচালনা করার জন্য ব্যবহৃত হয়।
 
 ```bash
@@ -326,7 +328,7 @@ iptables -L    # Lists firewall rules
 
 ## 29. `ping`
 
-**English:** Used to test network connectivity.
+**English:** Used to test network connectivity.<br>
 **বাংলা:** নেটওয়ার্ক কানেক্টিভিটি পরীক্ষা করার জন্য ব্যবহৃত হয়।
 
 ```bash
@@ -336,7 +338,7 @@ ping google.com    # Sends ping to google.com
 
 ## 30. `history`
 
-**English:** Used to view previously used commands.
+**English:** Used to view previously used commands.<br>
 **বাংলা:** আগে ব্যবহৃত কমান্ডগুলি দেখার জন্য ব্যবহৃত হয়।
 
 ```bash
@@ -345,7 +347,3 @@ history     # Shows command history
 !123        # Re-runs command number 123 from history
            # হিস্টরিতে 123 নম্বর কমান্ড আবার চালাবে
 ```
-
-**English Summary:** These commands are essential for the daily work of a DevOps engineer. Having a good understanding of these commands makes system administration, automation, monitoring, and troubleshooting tasks much easier.
-
-**বাংলা সারাংশ:** এই কমান্ডগুলি একজন DevOps ইঞ্জিনিয়ারের দৈনন্দিন কাজের জন্য অত্যন্ত গুরুত্বপূর্ণ। এগুলি ভালোভাবে জানা থাকলে সিস্টেম অ্যাডমিনিস্ট্রেশন, অটোমেশন, মনিটরিং, এবং ট্রাবলশুটিং কাজগুলি অনেক সহজ হয়ে যায়।
