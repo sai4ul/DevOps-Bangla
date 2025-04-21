@@ -339,7 +339,7 @@ ping google.com    # Sends ping to google.com
 ## 30. `history`
 
 **English:** Used to view previously used commands.<br>
-**বাংলা:** আগে ব্যবহৃত কমান্ডগুলি দেখার জন্য ব্যবহৃত হয়।
+** বাংলা: ** আগে ব্যবহৃত কমান্ডগুলি দেখার জন্য ব্যবহৃত হয়।
 
 ```bash
 history     # Shows command history
